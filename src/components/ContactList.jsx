@@ -38,7 +38,7 @@ export default function ContactList({ setSelectedContactId }) {
           <td>Email</td>
           <td>Phone</td>
         </tr>
-        ContactList setSelectedContactId={setSelectedContactId}
+
         {contacts.map((contact) => {
           return <ContactRow key={contact.id} contact={contact} />;
         })}
